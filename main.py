@@ -1,7 +1,7 @@
 import names
 import time
 from datetime import datetime
-file_path = "D:/hw_26/python_test/t.txt"
+file_path = "C:/Users/user/PycharmProjects/pythonProject1/test.txt"
 while True:
     with open(file_path, 'a+') as file_txt:
         now = datetime.now()
@@ -16,4 +16,3 @@ while True:
         file_txt.close()
 
     time.sleep(0.5)
-
