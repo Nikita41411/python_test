@@ -1,3 +1,4 @@
+# Генератор рандомных имен с датой и временем
 import names
 import time
 from datetime import datetime
